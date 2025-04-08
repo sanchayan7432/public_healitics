@@ -1,0 +1,1 @@
+streamlit run "D:\6th sem project\disease_prediction_system.py"
