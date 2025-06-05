@@ -23,12 +23,12 @@ if st.session_state.landing_page:
     with st.container():
         
         # Add a logo above the heading
-        image = Image.open("logo.png")  # Open image manually
-        st.image(image, width=250)
+        image = Image.open("Gemini_Generated_Image_85votn85votn85vo.png")  # Open image manually
+        st.image(image, width=500)
         
         st.markdown('<div class="landing-container">', unsafe_allow_html=True)
-        st.markdown("<h2>University Of Engineering and Management Hospital, Jaipur</h2>", unsafe_allow_html=True)
-        st.markdown("<p>__________________________________________________________________________</p>", unsafe_allow_html=True)
+        #st.markdown("<h2>University Of Engineering and Management Hospital, Jaipur</h2>", unsafe_allow_html=True)
+        #st.markdown("<p>__________________________________________________________________________</p>", unsafe_allow_html=True)
         st.markdown("<h1>H E A L I T I C S</h1>", unsafe_allow_html=True)
         st.markdown("<h4>-  Sensing illness before it strikes</h4>", unsafe_allow_html=True)
         st.markdown("<p><br><br></p>", unsafe_allow_html=True)
